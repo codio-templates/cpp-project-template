@@ -3,8 +3,8 @@
     
     // Run button configuration
     "commands": {
-        "Compile & Run": "gcc {{filename}} -o {{filename_no_ext}} && ./{{filename_no_ext}}",
-        "Compile": "gcc {{filename}} -o {{filename_no_ext}}",
+        "Compile & Run": "g++ -o {{filename_no_ext}} {{filename}} && ./{{filename_no_ext}}",
+        "Compile": "g++ -o {{filename_no_ext}} {{filename}}",
         "Run": "./{{filename_no_ext}}"
     },
     // Preview button configuration
@@ -15,5 +15,5 @@
         "Box URL SSL": "https://{{domain3000}}/"
     },
     // Debugger target button configuration
-    "debugger": [{"type":"GDB","command":"/tmp/program67e2dee2135748e7c1ba01f45b46ceda ","before":"gcc -std=c11 -g -lm {{filepath}} -o /tmp/program67e2dee2135748e7c1ba01f45b46ceda","single":true,"lang":"c","additionalCompilerFlags":"","sourcePath":"{{filepath}}","args":"","uuid":"4713985f-ec53-ca5c-71b4-b8615ec23995","name":"Debug Current File"}]
+    "debugger": [{"type":"GDB","command":"/tmp/program83b0717fa37e2e0346bafc8c1429cb87 ","before":"g++ -g {{filepath}} -o /tmp/program83b0717fa37e2e0346bafc8c1429cb87","single":true,"lang":"cpp","additionalCompilerFlags":"","sourcePath":"{{filepath}}","args":"","uuid":"63f293ba-8385-602d-bcbe-7b86f94c9c58","name":"Debug Current File"}]
 }

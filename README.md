@@ -1,4 +1,4 @@
-# Creating C programs in Codio
+# Creating C++ programs in Codio
 
 ### Make a new file
 Use **File > New File...** or right-click in the file tree to create a new file. You can right-click in the file tree to rename or delete files.
